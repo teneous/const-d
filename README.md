@@ -1,2 +1,2 @@
 # const-d
-constant define  in kotlin
+constant define in kotlin
