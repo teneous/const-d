@@ -21,122 +21,80 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package kotlin.com.syoka.common.db
+package kotlin.com.syoka.common
 
 /**
- * sql pool
+ * 运算符常量
  *
  * @author syoka
- * @version : SqlConstant.kotlin, v 1.0 2021年06月09日 18时38分
+ * @version : OperatorConstant.kotlin, v 1.0 2021年06月11日 00时07分
  */
-class SqlConstant {
-
+class OperatorConstant {
     companion object {
+        /**
+         * 等于
+         */
+        const val EQUALS = "="
 
         /**
-         * select
+         * 不等于
          */
-        const val SELECT = "select"
+        const val NOT_EQUALS = "<>"
 
         /**
-         * delete
+         * 不等于
          */
-        const val DELETE = "delete"
+        const val NEQ = "!="
 
         /**
-         * update
+         * 大于
          */
-        const val UPDATE = "update"
+        const val GREAT_THAN = ">"
 
         /**
-         * insert
+         * 小于
          */
-        const val INSERT = "insert"
+        const val LESS_THAN = "<"
 
         /**
-         * from
+         * 大于等于
          */
-        const val FROM = "from"
+        const val NO_LESS_THAN = ">="
 
         /**
-         * where
+         * 小于等于
          */
-        const val WHERE = "where"
+        const val NO_MORE_THAN = "<="
 
         /**
-         * order by
+         * 乘法
          */
-        const val ORDER_BY = "order by"
+        const val MULTIPLYING = "*"
 
         /**
-         * group by
+         * 除法
          */
-        const val GROUP_BY = "group by"
+        const val DIVIDE = "/"
 
         /**
-         * desc
+         * 余数
          */
-        const val DESC = "desc"
+        const val MOD = "%"
 
         /**
-         * asc
+         * 与
          */
-        const val ASC = "asc"
+        const val AND = "&"
 
         /**
-         * on
+         * 或
          */
-        const val ON = "on"
+        const val OR = "||"
 
         /**
-         * distinct
+         * 非
          */
-        const val DISTINCT = "distinct"
-
-        /**
-         * left join
-         */
-        const val LEFT_JOIN = "left join"
-
-        /**
-         * right join
-         */
-        const val RIGHT_JOIN = "right join"
-
-        /**
-         * inner join
-         */
-        const val INNER_JOIN = "inner join"
-
-        /**
-         * cross join
-         */
-        const val CROSS_JOIN = "cross join"
-
-        /**
-         * union
-         */
-        const val UNION = "union"
-
-        /**
-         * union all
-         */
-        const val UNION_ALL = "union all"
-
-        /**
-         * limit
-         */
-        const val LIMIT = "limit"
-
-        /**
-         * limit 1
-         */
-        const val LIMIT_1 = "limit 1"
-
-        /**
-         * alter
-         */
-        const val ALTER = "alter"
+        const val NOT = "!"
 
     }
 }
