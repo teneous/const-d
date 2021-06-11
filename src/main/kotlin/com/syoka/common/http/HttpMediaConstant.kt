@@ -21,122 +21,80 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.syoka.common.db
+package com.syoka.common.http
 
 /**
- * sql pool
+ * 媒体类型
  *
  * @author syoka
- * @version : SqlConstant.kotlin, v 1.0 2021年06月09日 18时38分
+ * @version : HttpMediaConstant.kotlin, v 1.0 2021年06月11日 14时08分
  */
-class SqlConstant {
+class HttpMediaConstant {
 
     companion object {
+        /**
+         * APPLICATION_ATOM_XML_VALUE
+         */
+        const val APPLICATION_ATOM_XML_VALUE = "application/atom+xml"
 
         /**
-         * select
+         * APPLICATION_CBOR_VALUE
          */
-        const val SELECT = "select"
+        const val APPLICATION_CBOR_VALUE = "application/cbor"
 
         /**
-         * delete
+         * APPLICATION_FORM_URLENCODED_VALUE
          */
-        const val DELETE = "delete"
+        const val APPLICATION_FORM_URLENCODED_VALUE = "application/x-www-form-urlencoded"
 
         /**
-         * update
+         * APPLICATION_JSON_VALUE
          */
-        const val UPDATE = "update"
+        const val APPLICATION_JSON_VALUE = "application/json"
 
         /**
-         * insert
+         * APPLICATION_JSON_UTF8_VALUE
          */
-        const val INSERT = "insert"
+        const val APPLICATION_JSON_UTF8_VALUE = "application/json;charset=UTF-8"
 
         /**
-         * from
+         * APPLICATION_PDF_VALUE
          */
-        const val FROM = "from"
+        const val APPLICATION_PDF_VALUE = "application/pdf"
 
         /**
-         * where
+         * APPLICATION_XML_VALUE
          */
-        const val WHERE = "where"
+        const val APPLICATION_XML_VALUE = "application/xml"
 
         /**
-         * order by
+         * APPLICATION_XAML_XML
          */
-        const val ORDER_BY = "order by"
+        const val APPLICATION_XAML_XML = "application/xaml+xml"
 
         /**
-         * group by
+         * MULTIPART_FORM_DATA_VALUE
          */
-        const val GROUP_BY = "group by"
+        const val MULTIPART_FORM_DATA_VALUE = "multipart/form-data"
 
         /**
-         * desc
+         * MULTIPART_MIXED_VALUE
          */
-        const val DESC = "desc"
+        const val MULTIPART_MIXED_VALUE = "multipart/mixed"
 
         /**
-         * asc
+         * TEXT_HTML_VALUE
          */
-        const val ASC = "asc"
+        const val TEXT_HTML_VALUE = "text/html"
 
         /**
-         * on
+         * TEXT_HTML_UTF8_VALUE
          */
-        const val ON = "on"
+        const val TEXT_HTML_UTF8_VALUE = "text/html;charset=utf-8"
 
         /**
-         * distinct
+         * TEXT_PLAIN_VALUE
          */
-        const val DISTINCT = "distinct"
-
-        /**
-         * left join
-         */
-        const val LEFT_JOIN = "left join"
-
-        /**
-         * right join
-         */
-        const val RIGHT_JOIN = "right join"
-
-        /**
-         * inner join
-         */
-        const val INNER_JOIN = "inner join"
-
-        /**
-         * cross join
-         */
-        const val CROSS_JOIN = "cross join"
-
-        /**
-         * union
-         */
-        const val UNION = "union"
-
-        /**
-         * union all
-         */
-        const val UNION_ALL = "union all"
-
-        /**
-         * limit
-         */
-        const val LIMIT = "limit"
-
-        /**
-         * limit 1
-         */
-        const val LIMIT_1 = "limit 1"
-
-        /**
-         * alter
-         */
-        const val ALTER = "alter"
-
+        const val TEXT_PLAIN_VALUE = "text/plain"
     }
 }

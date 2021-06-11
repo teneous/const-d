@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package kotlin.com.syoka.common.http
+package com.syoka.common.http
 
 /**
  *Http扩展头元素

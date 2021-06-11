@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package kotlin.com.syoka.common.http
+package com.syoka.common.http
 
 /**
  * http头元素常量
@@ -107,7 +107,7 @@ class HttpHeaderConstant {
         const val COOKIE = "Cookie"
 
         /**
-         *
+         * X-Requested-With
          */
         const val X_REQUESTED_WITH = "X-Requested-With"
 
@@ -117,7 +117,7 @@ class HttpHeaderConstant {
         const val X_FORWARDED_PROTO = "X-Forwarded-Proto"
 
         /**
-         *
+         *X-Forwarded-Port
          */
         const val X_FORWARDED_PORT = "X-Forwarded-Port"
 
@@ -125,36 +125,11 @@ class HttpHeaderConstant {
          * XMLHttpRequest
          */
         const val XML_HTTP_REQUEST = "XMLHttpRequest"
+
         /**
-         *
+         * X-Real-Ip
          */
         const val X_REAL_IP = "X-Real-Ip"
-
-        const val APPLICATION_ATOM_XML_VALUE = "application/atom+xml"
-
-        const val APPLICATION_CBOR_VALUE = "application/cbor"
-
-        const val APPLICATION_FORM_URLENCODED_VALUE = "application/x-www-form-urlencoded"
-
-        const val APPLICATION_JSON_VALUE = "application/json"
-
-        const val APPLICATION_JSON_UTF8_VALUE = "application/json;charset=UTF-8"
-
-        const val APPLICATION_PDF_VALUE = "application/pdf"
-
-        const val APPLICATION_XML_VALUE = "application/xml"
-
-        const val APPLICATION_XAML_XML = "application/xaml+xml"
-
-        const val MULTIPART_FORM_DATA_VALUE = "multipart/form-data"
-
-        const val MULTIPART_MIXED_VALUE = "multipart/mixed"
-
-        const val TEXT_HTML_VALUE = "text/html"
-
-        const val TEXT_HTML_UTF8_VALUE = "text/html;charset=utf-8"
-
-        const val TEXT_PLAIN_VALUE = "text/plain"
 
         const val ACCEPT_REGULAR_EXPRESS = "*/*"
     }

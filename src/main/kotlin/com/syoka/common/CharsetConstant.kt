@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package kotlin.com.syoka.common
+package com.syoka.common
 
 /**
  * 字符集常量

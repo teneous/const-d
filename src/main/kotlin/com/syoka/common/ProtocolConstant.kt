@@ -35,7 +35,7 @@ class ProtocolConstant {
         /**
          * Http
          */
-        const val HTTP = "com/syoka/common/http"
+        const val HTTP = "http"
         const val HTTP_PORT = "80"
 
         /**

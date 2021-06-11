@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package kotlin.com.syoka.common
+package com.syoka.common
 
 /**
  *
@@ -33,12 +33,86 @@ package kotlin.com.syoka.common
 class AlgorithmConst {
 
     companion object {
+        /**
+         * AES
+         */
         const val AES = "AES"
+
+        /**
+         * Base64
+         */
         const val BASE64 = "BASE64"
+
+        /**
+         * RSA
+         */
         const val RSA = "RSA"
+
+        /**
+         * RSA2
+         */
         const val RSA2 = "RSA2"
+
+        /**
+         * Bcrypt
+         */
         const val BCRYPT = "Bcrypt"
+
+        /**
+         * MD5
+         */
         const val MD5 = "MD5"
+
+        /**
+         * MD4
+         */
+        const val MD4 = "MD4"
+
+        /**
+         * SHA 1
+         */
+        const val SHA1 = "SHA-1";
+
+        /**
+         * SHA 1
+         */
+        const val SHA224 = "SHA-224";
+
+        /**
+         * SHA 1
+         */
+        const val SHA256 = "SHA-256";
+
+        /**
+         * SHA 1
+         */
+        const val SHA384 = "SHA-384";
+
+        /**
+         * SHA 1
+         */
+        const val SHA512 = "SHA-512";
+
+        /**
+         * DES
+         */
+        const val DES = "DES";
+
+        /**
+         * AES CBC PKCS5
+         */
+        const val AES_CBC_PKCS5 = "AES/CBC/PKCS5Padding"
+
+
+        /**
+         * AES CBC PKCS7
+         */
+        const val AES_CBC_PKCS7 = "AES/CBC/PKCS7Padding"
+
+        /**
+         * DES_ECB_NOPADDING
+         */
+        const val DES_ECB_NOPADDING = "DES/ECB/NoPadding";
 
     }
 }
