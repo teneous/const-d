@@ -42,10 +42,16 @@ class CharConstant {
          */
         const val UNDERLINE = "_"
 
+
         /**
          * hyphen
          */
         const val HYPHEN = "-"
+
+        /**
+         * question
+         */
+        const val QUESTION = "?"
 
         /**
          * dot
@@ -153,10 +159,14 @@ class CharConstant {
         const val NUMBER_SIGN = "#"
 
         /**
-         * $占位符
+         * $占位符开始
          */
-        const val PLACEHOLDER_PREFIX = "\${"
+        const val OPEN_PLACEHOLDER = "\${"
 
+        /**
+         * $占位符结束
+         */
+        const val CLOSE_PLACEHOLDER_PREFIX: String = CLOSE_BRACE
     }
 
 }
