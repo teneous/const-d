@@ -24,54 +24,34 @@
 package com.syoka.common
 
 /**
- * 常见协议常量
+ * 字符集常量
  *
  * @author syoka
- * @version : ProtocolConstant.kotlin, v 1.0 2021年06月09日 18时46分
+ * @version : CharsetConstant.kotlin, v 1.0 2021年06月11日 00时05分
  */
-class ProtocolConstant {
+class CharsetConstant {
+
     companion object {
+        /**
+         * utf-8
+         */
+        const val UTF_8 = "UTF-8"
 
         /**
-         * Http
+         * utf8
          */
-        const val HTTP = "http"
-        const val HTTP_PORT = "80"
+        const val UTF8 = "UTF8"
 
         /**
-         * Https
+         * unicode
          */
-        const val HTTPS = "https"
-        const val HTTPS_PORT = "443"
+        const val UNICODE = "Unicode"
 
         /**
-         * SMTP 邮件
+         * GBK
          */
-        const val SMTP = "smtp"
-        const val SMTP_PORT = "25"
+        const val GBK = "GBK"
 
-        /**
-         * pop3
-         */
-        const val POP3 = "pop3"
-        const val POP3_PORT = "110"
 
-        /**
-         * imap
-         */
-        const val IMAP = "imap"
-        const val IMAP_PORT = "143"
-
-        /**
-         * ssh
-         */
-        const val SSH = "ssh"
-        const val SSH_PORT = "22"
-
-        /**
-         * ftp
-         */
-        const val FTP = "ftp"
-        const val FTP_PORT = "21"
     }
 }

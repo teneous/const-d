@@ -24,54 +24,95 @@
 package com.syoka.common
 
 /**
- * 常见协议常量
+ *
+ * 算法常量（待追加）
  *
  * @author syoka
- * @version : ProtocolConstant.kotlin, v 1.0 2021年06月09日 18时46分
+ * @version : AlgorithmConst.kotlin, v 1.0 2021年06月11日 00时13分
  */
-class ProtocolConstant {
+class AlgorithmConst {
+
     companion object {
+        /**
+         * AES
+         */
+        const val AES = "AES"
 
         /**
-         * Http
+         * Base64
          */
-        const val HTTP = "http"
-        const val HTTP_PORT = "80"
+        const val BASE64 = "BASE64"
 
         /**
-         * Https
+         * RSA
          */
-        const val HTTPS = "https"
-        const val HTTPS_PORT = "443"
+        const val RSA = "RSA"
 
         /**
-         * SMTP 邮件
+         * RSA2
          */
-        const val SMTP = "smtp"
-        const val SMTP_PORT = "25"
+        const val RSA2 = "RSA2"
 
         /**
-         * pop3
+         * Bcrypt
          */
-        const val POP3 = "pop3"
-        const val POP3_PORT = "110"
+        const val BCRYPT = "Bcrypt"
 
         /**
-         * imap
+         * MD5
          */
-        const val IMAP = "imap"
-        const val IMAP_PORT = "143"
+        const val MD5 = "MD5"
 
         /**
-         * ssh
+         * MD4
          */
-        const val SSH = "ssh"
-        const val SSH_PORT = "22"
+        const val MD4 = "MD4"
 
         /**
-         * ftp
+         * SHA 1
          */
-        const val FTP = "ftp"
-        const val FTP_PORT = "21"
+        const val SHA1 = "SHA-1";
+
+        /**
+         * SHA 1
+         */
+        const val SHA224 = "SHA-224";
+
+        /**
+         * SHA 1
+         */
+        const val SHA256 = "SHA-256";
+
+        /**
+         * SHA 1
+         */
+        const val SHA384 = "SHA-384";
+
+        /**
+         * SHA 1
+         */
+        const val SHA512 = "SHA-512";
+
+        /**
+         * DES
+         */
+        const val DES = "DES";
+
+        /**
+         * AES CBC PKCS5
+         */
+        const val AES_CBC_PKCS5 = "AES/CBC/PKCS5Padding"
+
+
+        /**
+         * AES CBC PKCS7
+         */
+        const val AES_CBC_PKCS7 = "AES/CBC/PKCS7Padding"
+
+        /**
+         * DES_ECB_NOPADDING
+         */
+        const val DES_ECB_NOPADDING = "DES/ECB/NoPadding";
+
     }
 }

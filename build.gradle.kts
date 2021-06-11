@@ -8,8 +8,8 @@ group = "com.syoka.common"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenLocal()
     maven("url 'https://maven.aliyun.com/repository/public/")
+    mavenLocal()
     mavenCentral()
 }
 

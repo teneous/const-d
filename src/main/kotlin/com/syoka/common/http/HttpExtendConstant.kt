@@ -21,57 +21,34 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.syoka.common
+package com.syoka.common.http
 
 /**
- * 常见协议常量
+ *Http扩展头元素
  *
  * @author syoka
- * @version : ProtocolConstant.kotlin, v 1.0 2021年06月09日 18时46分
+ * @version : HttpExtendConstant.kotlin, v 1.0 2021年06月11日 00时10分
  */
-class ProtocolConstant {
+class HttpExtendConstant {
     companion object {
+        /**
+         * 认证头元素
+         */
+        const val AUTHORIZATION = "Authorization"
 
         /**
-         * Http
+         * redirect:
          */
-        const val HTTP = "http"
-        const val HTTP_PORT = "80"
+        const val REDIRECT_COLON = "redirect:"
 
         /**
-         * Https
+         * forward:
          */
-        const val HTTPS = "https"
-        const val HTTPS_PORT = "443"
+        const val FORWARD_COLON = "forward:"
 
         /**
-         * SMTP 邮件
+         *token 持有前缀
          */
-        const val SMTP = "smtp"
-        const val SMTP_PORT = "25"
-
-        /**
-         * pop3
-         */
-        const val POP3 = "pop3"
-        const val POP3_PORT = "110"
-
-        /**
-         * imap
-         */
-        const val IMAP = "imap"
-        const val IMAP_PORT = "143"
-
-        /**
-         * ssh
-         */
-        const val SSH = "ssh"
-        const val SSH_PORT = "22"
-
-        /**
-         * ftp
-         */
-        const val FTP = "ftp"
-        const val FTP_PORT = "21"
+        const val BEARER = "bearer:"
     }
 }

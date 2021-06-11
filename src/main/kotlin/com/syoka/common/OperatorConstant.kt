@@ -24,54 +24,77 @@
 package com.syoka.common
 
 /**
- * 常见协议常量
+ * 运算符常量
  *
  * @author syoka
- * @version : ProtocolConstant.kotlin, v 1.0 2021年06月09日 18时46分
+ * @version : OperatorConstant.kotlin, v 1.0 2021年06月11日 00时07分
  */
-class ProtocolConstant {
+class OperatorConstant {
     companion object {
+        /**
+         * 等于
+         */
+        const val EQUALS = "="
 
         /**
-         * Http
+         * 不等于
          */
-        const val HTTP = "http"
-        const val HTTP_PORT = "80"
+        const val NOT_EQUALS = "<>"
 
         /**
-         * Https
+         * 不等于
          */
-        const val HTTPS = "https"
-        const val HTTPS_PORT = "443"
+        const val NEQ = "!="
 
         /**
-         * SMTP 邮件
+         * 大于
          */
-        const val SMTP = "smtp"
-        const val SMTP_PORT = "25"
+        const val GREAT_THAN = ">"
 
         /**
-         * pop3
+         * 小于
          */
-        const val POP3 = "pop3"
-        const val POP3_PORT = "110"
+        const val LESS_THAN = "<"
 
         /**
-         * imap
+         * 大于等于
          */
-        const val IMAP = "imap"
-        const val IMAP_PORT = "143"
+        const val NO_LESS_THAN = ">="
 
         /**
-         * ssh
+         * 小于等于
          */
-        const val SSH = "ssh"
-        const val SSH_PORT = "22"
+        const val NO_MORE_THAN = "<="
 
         /**
-         * ftp
+         * 乘法
          */
-        const val FTP = "ftp"
-        const val FTP_PORT = "21"
+        const val MULTIPLYING = "*"
+
+        /**
+         * 除法
+         */
+        const val DIVIDE = "/"
+
+        /**
+         * 余数
+         */
+        const val MOD = "%"
+
+        /**
+         * 与
+         */
+        const val AND = "&"
+
+        /**
+         * 或
+         */
+        const val OR = "||"
+
+        /**
+         * 非
+         */
+        const val NOT = "!"
+
     }
 }
